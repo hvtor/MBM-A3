@@ -209,6 +209,13 @@ int main(int argc, const char * argv[]) {
         sum = 25 + 37 - 19;
         // display results
         NSLog (@"The answer is %i", sum);
+        
+        // Assignment # 3 - Part 4
+        
+        int answer, result;
+        answer = 100;
+        result = answer - 10;
+        NSLog (@"The result is %i\n", result + 5);
     }
     return 0;
 
