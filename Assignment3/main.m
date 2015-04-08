@@ -193,7 +193,22 @@ int main(int argc, const char * argv[]) {
         aPointer = nil;        // Don't do this
         aPointer = NULL;       // Do this instead
         
+        // Assignment # 3 - Part 2
+        // Application to display result of 87-15
         
+        int a = 87;
+        int b = 15;
+        int c = a - b;
+        NSLog(@"The result of subtracting the value of 15 from 87 is : %d",c);
+        
+        // Assignment # 3 - Part 3
+        
+        // the type of the primitive, sum, should be declared in lowercase
+        int sum;
+        // computer results
+        sum = 25 + 37 - 19;
+        // display results
+        NSLog (@"The answer is %i", sum);
     }
     return 0;
 
